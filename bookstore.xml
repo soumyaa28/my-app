@@ -1,0 +1,20 @@
+<?xml version="1.0"encoding="utf-8"?>
+<!doctype bookstore[
+<!elementbookstore(book+)>
+<!elementbook(title,author,price)>
+<!elementtitle(#pcdata)>
+<!elementauthor(#pcdata)>
+<!elementprice(#pcdata)>
+]>
+<bookstore>
+<book>
+<title>introduction to xml</title>
+<author>john doe</author</author>
+<price>29.99</price>
+</book>
+<book>
+<title>programming to xml</title>
+<author>jane smith</author>
+<price>39.99</price>
+</book>
+</bookstore>

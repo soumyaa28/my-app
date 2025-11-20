@@ -1,0 +1,23 @@
+<?xml version="1.0"encoding="utf-8"?>
+<xs:schemaxmlns:xs="http://www.w3.org/2001/xmlschema"target
+namespace="http://example.com">
+<xs:elementname="root">
+<xs:complextype>
+<xs:sequence>
+<xs:elementname="bookstore"type="bookstoretype"/>
+</xs:sequence>
+</xs:complextype>
+</xselement>
+<xs:complextypename="bookstoretype">
+<xs:sequence>
+<xs:elementname="book"typpe="booktype"minoccurs="0"maxoccurs="unbounded"/>
+</xs:sequence>
+</xs:complextype>
+<xs:complextypename="booktype">
+<xs:sequence>
+<xs:elementname="title"type="xs:string"/>
+<xs:elementname="author"type="xs:string"/>
+<xs:elementname="price"type="xs:decimal"/>
+</xs:sequence>
+</xs:complextype>
+<xs:schema>
